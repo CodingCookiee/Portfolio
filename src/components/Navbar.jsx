@@ -1,6 +1,6 @@
 import React, {useEffect , useState} from 'react';
 import { Link } from 'react-router-dom';
-import styles from '../styles';
+import {styles} from '../styles';
 import  {navLinks} from '../constants';
 import {logo, menu, close} from '../assets'
 import { nav } from 'framer-motion/client';
@@ -20,7 +20,10 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         >
-        <img src={logo} alt="Logo" className='w-10 h-10 object-contain rounded-full' />
+        <img src={logo} alt="Logo" className='w-10 h-10 object-cover rounded-full' />
+        <p className='text-white text-[18px] font-bold cursor-pointer'>Raza <span className='sm:block hidden'>
+          | Awan
+        </span></p>
         </Link>
       </div>
     </nav>
