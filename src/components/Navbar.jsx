@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useEffect , useState} from 'react';
 import { Link } from 'react-router-dom';
 import {styles} from '../styles';
@@ -44,7 +45,7 @@ const Navbar = () => {
           <img
             src={ toggle ?menu:close}
             alt="Menu"
-            className='w-[280px] h-[28px] object-contain cursor-pointer'
+            className=' w-[280px] h-[28px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
           />
           <div className={`${!toggle?'flex':'hidden'} p-6 black-gradient
