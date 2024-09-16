@@ -17,8 +17,8 @@ const  App = ()=> {
  </div>
  <div>
  <About />
- <Experience />
  <Tech />
+ <Experience />
  <Works />
  <Feedbacks />
  </div>
