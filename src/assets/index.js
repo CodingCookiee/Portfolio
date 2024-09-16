@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mern from './tech/mern.png';
+import webdev from './tech/webdev.png';
+import sql from './tech/sql.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  mern,
+  webdev,
+  sql,
 };

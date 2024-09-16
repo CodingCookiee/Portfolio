@@ -1,6 +1,7 @@
-import mern from '../assets/tech/mern.png';
-import webdev from '../assets/tech/webdev.png'
 import {
+  mern, 
+  webdev,
+  sql,
   mobile,
   backend,
   creator,
@@ -58,6 +59,11 @@ const services = [
 ];
 
 const technologies = [
+
+  {
+    title: 'Sql',
+    icon:sql,
+  },
   {
     title: "MERN Stack",
     icon: mern,
@@ -118,20 +124,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Languages",
     // company_name: "Fivver",
     icon: reactjs,
     iconBg: "#383E56",
     // date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      html, css, javascript, sql
     ],
   },
   {
-    title: "Node.js Developer",
+    title: "FrontEnd Libraries/Frameworks",
     // company_name: "Fivver",
     icon: nodejs,
     iconBg: "#f1f1f1",
@@ -144,7 +151,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "BackEnd Libraries/Frameworks",
     // company_name: "Upwork",
     icon: webdev,
     iconBg: "#383E56",
@@ -157,7 +164,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack MERN Developer",
+    title: "Dev Tools",
     // company_name: "Upwork",
     icon: mern,
     iconBg: "#f1f1f1",
@@ -265,3 +272,4 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
