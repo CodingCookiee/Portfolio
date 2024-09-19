@@ -21,12 +21,11 @@ const ExperienceCard = ({ experience }) => (
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
     </div>
-    {/* Changed to div with flex for horizontal layout */}
-    <div className='mt-5 flex flex-row flex-wrap gap-4'>
+    <div className='mt-5 flex flex-row flex-wrap gap-4 '>
       {experience.points.map((point, index) => (
         <div key={`experience-point-${index}`} className="flex items-center">
-          <img src={point} alt={`icon-${index}`} className="w-20 h-20 object-cover mr-3" /> {/* Displaying icons */}
-          {/* Optionally add corresponding text here if each icon has a label */}
+          <img src={point} alt={`icon-${index}`} className="w-20 h-20 object-cover mr-3" />
+         
         </div>
       ))}
     </div>
@@ -38,7 +37,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className={styles.sectionHeadText}>Skills.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

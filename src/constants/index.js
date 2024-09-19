@@ -1,6 +1,16 @@
 import {
+  jest,
+  npm, 
+  cloudflare,
+  bootstrap,
+  postgresql,
+  webpack,
+  vitejs,
+  github,
+  netlify,
+  expressjs,
+  vscode,
   mern, 
-  webdev,
   sql,
   mobile,
   backend,
@@ -22,6 +32,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  mysql,
+  language,
+  frontend,
+  backendd,
+  dev
 } from "../assets";
 
 export const navLinks = [
@@ -126,7 +141,7 @@ const experiences = [
   {
     title: "Languages",
     // company_name: "Fivver",
-    icon: reactjs,
+    icon: language,
     iconBg: "#383E56",
     // date: "March 2020 - April 2021",
     points: [
@@ -134,46 +149,49 @@ const experiences = [
       // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       // "Implementing responsive design and ensuring cross-browser compatibility.",
       // "Participating in code reviews and providing constructive feedback to other developers.",
-      html, css, javascript, sql
+      html, css, javascript, mysql
     ],
   },
   {
     title: "FrontEnd Libraries/Frameworks",
     // company_name: "Fivver",
-    icon: nodejs,
+    icon: frontend,
     iconBg: "#f1f1f1",
     // date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      reactjs, redux, tailwind, threejs, bootstrap
     ],
   },
   {
     title: "BackEnd Libraries/Frameworks",
     // company_name: "Upwork",
-    icon: webdev,
+    icon: backendd,
     iconBg: "#383E56",
     // date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      nodejs,expressjs, mongodb, sql, postgresql
     ],
   },
   {
     title: "Dev Tools",
     // company_name: "Upwork",
-    icon: mern,
+    icon: dev,
     iconBg: "#f1f1f1",
     // date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      vscode,  github, git, netlify,cloudflare, vitejs, webpack,npm,jest, figma, 
     ],
   },
 ];

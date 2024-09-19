@@ -6,7 +6,18 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import language from './language.png'
+import frontend from './frontend.png'
+import backendd from './backendd.png'
+import dev from './dev.png'
 
+import vscode from './tech/vscode.svg'
+import bootstrap from './tech/bootstrap.svg'
+import cloudflare from './tech/cloudflare.svg'
+import redux from './tech/redux.svg'
+import vitejs from './tech/vitejs.svg'
+import netlify from './tech/netlify.svg'
+import expressjs from './tech/expressjs.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -16,13 +27,17 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import mern from './tech/mern.png';
 import webdev from './tech/webdev.png';
 import sql from './tech/sql.png'
+import webpack from './tech/webpack.svg'
+import postgresql from './tech/postgresql.svg'
+import mysql from './tech/mysql.svg'
+import npm from './tech/npm.svg'
+import jest from './tech/jest.svg'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +49,17 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  jest,
+  npm, 
+  cloudflare,
+  bootstrap,
+  mysql,
+  postgresql,
+  webpack,
+  vitejs,
+  netlify,
+  expressjs,
+  vscode,
   logo,
   backend,
   creator,
@@ -65,4 +91,8 @@ export {
   mern,
   webdev,
   sql,
+  language,
+  frontend,
+  backendd,
+  dev
 };
