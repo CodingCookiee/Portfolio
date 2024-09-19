@@ -39,14 +39,9 @@ import mysql from './tech/mysql.svg'
 import npm from './tech/npm.svg'
 import jest from './tech/jest.svg'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import noteapp from "./noteapp.png";
+import memegenerator from "./memegenerator.png";
+import airbnb from "./airbnb.png";
 
 export {
   jest,
@@ -81,13 +76,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  noteapp,
+  memegenerator, airbnb,
   mern,
   webdev,
   sql,

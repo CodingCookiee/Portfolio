@@ -17,7 +17,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -27,10 +26,9 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
+  noteapp,
+  memegenerator,
+  airbnb,
   threejs,
   mysql,
   language,
@@ -127,63 +125,43 @@ const technologies = [
     name: "PostgreSQL",
     icon: postgresql,
   },
+  {
+    name: "MeRN Stack",
+    icon: mern,
+  }
   
 ];
 
-const experiences = [
+const skills = [
   {
     title: "Languages",
-    // company_name: "Fivver",
     icon: language,
     iconBg: "#383E56",
-    // date: "March 2020 - April 2021",
     points: [
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
       html, css, javascript, mysql
     ],
   },
   {
     title: "FrontEnd Libraries/Frameworks",
-    // company_name: "Fivver",
     icon: frontend,
     iconBg: "#f1f1f1",
-    // date: "Jan 2021 - Feb 2022",
     points: [
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
       reactjs, redux, tailwind, threejs, bootstrap
     ],
   },
   {
     title: "BackEnd Libraries/Frameworks",
-    // company_name: "Upwork",
     icon: backendd,
     iconBg: "#383E56",
-    // date: "Jan 2022 - Jan 2023",
     points: [
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
       nodejs,expressjs, mongodb, sql, postgresql
     ],
   },
   {
     title: "Dev Tools",
-    // company_name: "Upwork",
     icon: dev,
     iconBg: "#f1f1f1",
-    // date: "Jan 2023 - Present",
     points: [
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
       vscode,  github, git, netlify,cloudflare, vitejs, webpack,npm,jest, figma, 
     ],
   },
@@ -218,30 +196,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "NoteApp",
+    // description:
+    //   "Web-based platform that allows users to create and manage notes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "cloudflare",
+        color: "orange-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        name: "vite",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: noteapp,
+    source_code_link: "https://github.com/CodingCookiee/NoteApp",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Meme Generator",
+    // description:
+    //   "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -252,24 +230,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "vite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: memegenerator,
+    source_code_link: "https://github.com/CodingCookiee/MemeGenerator/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Airbnb Clone",
+    // description:
+    //   "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
@@ -277,10 +255,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/CodingCookiee/AirbnbClone",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, skills, testimonials, projects };
 
