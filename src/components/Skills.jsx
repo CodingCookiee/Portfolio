@@ -25,15 +25,15 @@ const SkillCard = ({ skill }) => (
       {skill.points.map((point, index) => (
         <div key={`skill-point-${index}`} className="flex items-center">
           <img src={point} alt={`icon-${index}`} className="w-20 h-20 object-cover mr-3" />
-         
         </div>
       ))}
     </div>
   </VerticalTimelineElement>
 );
+
 const Skill = () => {
   return (
-    <>
+    <section id='skills'>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Skills.</h2>
@@ -45,7 +45,7 @@ const Skill = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </section>
   );
 }
 
