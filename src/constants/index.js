@@ -76,14 +76,6 @@ const services = [
 const technologies = [
 
   {
-    title: 'Sql',
-    icon:sql,
-  },
-  {
-    title: "MERN Stack",
-    icon: mern,
-  },
-  {
     name: "HTML 5",
     icon: html,
   },
@@ -94,10 +86,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -112,29 +100,34 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: 'Bootstrap',
+    icon: bootstrap,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
-    name: "figma",
-    icon: figma,
+    name:'Express',
+    icon: expressjs,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MongoDB",
+    icon: mongodb,
   },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  
 ];
 
 const experiences = [
