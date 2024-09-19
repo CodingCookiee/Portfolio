@@ -6,7 +6,7 @@ import CanvasLoader from '../Loader'; // Import a loading component
 // Component to render the computer model
 const Computers = ({ isMobile }) => {
   // Load the 3D model of the computer
-  const computer = useGLTF('/desktop_pc/scene.gltf');
+  const computer = useGLTF('./desktop_pc/scene.gltf');
   
   return (
     <mesh>
