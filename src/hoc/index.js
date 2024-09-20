@@ -1,3 +1,4 @@
 import SectionWrapper from './SectionWrapper';
-export {  SectionWrapper }
+import ErrorBoundary from './ErrorBoundary';
+export {  SectionWrapper, ErrorBoundary }
 

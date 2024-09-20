@@ -1,4 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
+import * as THREE from 'three';
+import { extend } from '@react-three/fiber';
+
+extend(THREE);
 
 import { About, Contact, Skills, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
