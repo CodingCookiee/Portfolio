@@ -21,7 +21,8 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.168.0",
-    "vite-project": "file:"
+    "vite-project": "file:",
+     "vite": "^5.4.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -35,7 +36,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.11",
-    "vite": "^5.4.6"
+    "tailwindcss": "^3.4.11"
+   
   }
 }
