@@ -39,6 +39,7 @@ import mysql from './tech/mysql.svg'
 import npm from './tech/npm.svg'
 import jest from './tech/jest.svg'
 
+import pandaai from "./pandaai.png";
 import noteapp from "./noteapp.png";
 import memegenerator from "./memegenerator.png";
 import airbnb from "./airbnb.png";
@@ -76,8 +77,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  pandaai,
   noteapp,
-  memegenerator, airbnb,
+  memegenerator, 
+  airbnb,
   mern,
   webdev,
   sql,
