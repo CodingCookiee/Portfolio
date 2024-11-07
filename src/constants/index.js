@@ -26,6 +26,7 @@ import {
   mongodb,
   git,
   figma,
+  pandaai,
   noteapp,
   memegenerator,
   airbnb,
