@@ -176,14 +176,18 @@ const projects = [
    {
     name: "PANDA AI",
     // description:
-    //   "Web-based platform that allows users to create and manage notes.",
+      "Panda AI is an AI chat bot; developped using MERN Stack & Google Gemini API. . ",
     tags: [
       {
         name: "MERN",
         color: "blue-text-gradient",
       },
+       {
+        name: "Google Gemini API",
+        color: "orange-text-gradient",
+      },
       {
-        name: "Tailwind & CSS3",
+        name: "Tailwind CSS",
         color: "orange-text-gradient",
       },
       {
@@ -197,18 +201,18 @@ const projects = [
   {
     name: "NoteApp",
     // description:
-    //   "Web-based platform that allows users to create and manage notes.",
+      "Web-based platform that uses lets users to perform basic CRUD functions",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "cloudflare",
+        name: "CRUD API",
         color: "orange-text-gradient",
       },
       {
-        name: "vite",
+        name: "Firebase",
         color: "green-text-gradient",
       }
     ],
@@ -218,7 +222,7 @@ const projects = [
   {
     name: "Meme Generator",
     // description:
-    //   "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   "Simple Web based meme generator",
     tags: [
       {
         name: "react",
@@ -237,9 +241,9 @@ const projects = [
     source_code_link: "https://github.com/CodingCookiee/MemeGenerator/",
   },
   {
-    name: "Airbnb Clone",
+    name: "Airbnb Experiences Clone",
     // description:
-    //   "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   "Airbnb experiences page clone",
     tags: [
       {
         name: "reactjs",
