@@ -172,6 +172,27 @@ const skills = [
   },
 ];
 const projects = [
+   {
+    name: "PANDA AI",
+    // description:
+    //   "Web-based platform that allows users to create and manage notes.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind & CSS3",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      }
+    ],
+    image: pandaai,
+    source_code_link: "https://github.com/CodingCookiee/PANDA-AI",
+  },
   {
     name: "NoteApp",
     // description:
