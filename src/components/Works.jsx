@@ -14,9 +14,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         options={{
           max: 45,
           scale: 1,
-          speed: 450
+          speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] 
+        w-full min-h-[450px] flex flex-col justify-between' // Added min-height
       >
         <div className='relative w-full h-[230px]'>
           <img src={image} alt={name} className='w-full h-full object-cover rounded-2xl' />
@@ -29,11 +30,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             </div>
           </div>
         </div>
-        <div className='mt-5'>
+        <div className='mt-5 flex-1'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 text-secondary text-[14px] line-clamp-3'>{description}</p> {/* Ensuring limited lines */}
         </div>
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
@@ -44,6 +45,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     </motion.div>
   )
 }
+
+
 
 const Works = () => {
   return (
@@ -65,7 +68,7 @@ const Works = () => {
       and manage projects effectively.
       </motion.p>
       </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-9'>
       {projects.map((project, index) => (
         <ProjectCard key={`project-${index}`}
         index={index} {...project} />
