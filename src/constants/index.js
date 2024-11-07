@@ -175,8 +175,8 @@ const skills = [
 const projects = [
    {
     name: "PANDA AI",
-    // description:
-      "Panda AI is an AI chat bot; developped using MERN Stack & Google Gemini API. . ",
+    description:
+      "Panda AI is an AI chat bot; developped using MERN Stack & Google Gemini API.",
     tags: [
       {
         name: "MERN",
@@ -200,7 +200,7 @@ const projects = [
   },
   {
     name: "NoteApp",
-    // description:
+    description:
       "Web-based platform that uses lets users to perform basic CRUD functions",
     tags: [
       {
@@ -221,8 +221,8 @@ const projects = [
   },
   {
     name: "Meme Generator",
-    // description:
-    //   "Simple Web based meme generator",
+    description:
+      "Simple Web based meme generator",
     tags: [
       {
         name: "react",
@@ -242,8 +242,8 @@ const projects = [
   },
   {
     name: "Airbnb Experiences Clone",
-    // description:
-    //   "Airbnb experiences page clone",
+    description:
+      "Airbnb experiences page clone",
     tags: [
       {
         name: "reactjs",
