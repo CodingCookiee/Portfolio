@@ -43,6 +43,7 @@ import pandaai from "./pandaai.png";
 import noteapp from "./noteapp.png";
 import memegenerator from "./memegenerator.png";
 import airbnb from "./airbnb.png";
+import fiverrservices from "./fiverrservices.png";
 
 export {
   jest,
@@ -87,5 +88,6 @@ export {
   language,
   frontend,
   backendd,
-  dev
+  dev,
+  fiverrservices
 };

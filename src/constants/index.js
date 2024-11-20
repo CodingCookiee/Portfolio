@@ -35,7 +35,8 @@ import {
   language,
   frontend,
   backendd,
-  dev
+  dev,
+  fiverrservices
 } from "../assets";
 
 export const navLinks = [
@@ -176,7 +177,7 @@ const projects = [
    {
     name: "PANDA AI",
     description:
-      "Panda AI is an AI chat bot; developped using MERN Stack & Google Gemini API.",
+      "Panda AI is an AI chat bot; developed using MERN Stack & Google Gemini API.",
     tags: [
       {
         name: "MERN",
@@ -198,6 +199,32 @@ const projects = [
     image: pandaai,
     source_code_link: "https://github.com/CodingCookiee/PANDA-AI",
   },
+  {
+    name: "Fiverr Clone",
+    description:
+      "Fully Functional & Responsive Fiverr Clone developed using MERN Stack",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "Stripe Payments API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      }
+    ],
+    image: fiverrservices,
+    source_code_link: "https://github.com/CodingCookiee/FiverrClone",
+  },
+
   {
     name: "NoteApp",
     description:
