@@ -7,6 +7,34 @@ import { skills } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
+const skillNames = {
+  html: 'HTML',
+  css: 'CSS',
+  javascript: 'JavaScript',
+  mysql: 'MySQL',
+  reactjs: 'React.js',
+  tailwind: 'Tailwind CSS',
+  threejs: 'Three.js',
+  nodejs: 'Node.js',
+  expressjs: 'Express.js',
+  mongodb: 'MongoDB',
+  sql: 'SQL',
+  firebase: 'Firebase',
+  vscode: 'VS Code',
+  github: 'GitHub',
+  git: 'Git',
+  vitejs: 'Vite.js',
+  webpack: 'Webpack',
+  restful: 'RESTful API',
+  jest: 'Jest',
+  stripe: 'Stripe',
+  docker: 'Docker',
+  uauth: 'UAuth',
+  domain_integration: 'Domain Integration',
+  aws: 'AWS',
+  figma: 'Figma'
+};
+
 const SkillCard = ({ skill }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color: '#fff' }}
@@ -23,15 +51,14 @@ const SkillCard = ({ skill }) => (
     </div>
     <ul className='mt-5 list-none flex flex-col gap-2'>
       {skill.points.map((point, index) => {
-        const skillName = typeof point === 'string' 
-          ? point.split('/').pop().split('.')[0].replace(/-/g, ' ')
-          : 'Skill';
-          
+        const skillKey = Object.keys(skillNames).find(key => point.includes(key));
+        const displayName = skillNames[skillKey] || skillKey;
+        
         return (
           <li key={`skill-point-${index}`} className="flex items-center">
-            <img src={point} alt={skillName} className="w-8 h-8 object-contain mr-3" />
+            <img src={point} alt={displayName} className="w-8 h-8 object-contain mr-3" />
             <span className="text-white-100 text-[16px] pl-1">
-              {skillName}
+              {displayName}
             </span>
           </li>
         );
