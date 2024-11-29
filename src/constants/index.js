@@ -1,10 +1,8 @@
 import {
   jest, 
-  cloudflare,
   webpack,
   vitejs,
   github,
-  netlify,
   expressjs,
   vscode,
   mern, 
@@ -133,36 +131,54 @@ const skills = [
     title: "Languages",
     icon: language,
     iconBg: "#383E56",
-    points: [
+    points: {
+      images: [
       html, css, javascript, mysql
     ],
+    names: [
+      "HTML5", "CSS3", "JavaScript", "MySql"
+    ]}
   },
   {
     title: "FrontEnd Libraries/Frameworks",
     icon: frontend,
     iconBg: "#f1f1f1",
-    points: [
-      reactjs, tailwind, threejs, 
+    points:{images: [
+       reactjs, tailwind, threejs 
     ],
+    names:[
+     
+      "React js"," Tailwind CSS", "Three Js", 
+    ]}
   },
   {
     title: "BackEnd Libraries/Frameworks",
     icon: backendd,
     iconBg: "#383E56",
-    points: [
+    points:{images: [
       nodejs, expressjs, mongodb, sql, firebase
     ],
+    names:[
+      
+      "Node Js", "Express Js", "MongoDB", "Sql", "Firebase"
+    ]}
   },
   {
     title: "Dev Tools",
     icon: dev,
     iconBg: "#f1f1f1",
-    points: [
+    points:{images: [
       vscode, github, git, vitejs, webpack, restful, jest, 
       stripe, docker,  uauth, domain_integration, aws, figma,
     ],
+    names:[
+      "Vs Code", "Github", "Git", "Vite Js", "Webpack", "RESTful", "Jest", 
+      "Stripe", "Docker",  "UAuth", "Domain Integration", "Aws", "Figma",
+    ]}
   },
-];const projects = [
+];
+
+const projects = [
   {
     name: "PandaPlay",
     description:
