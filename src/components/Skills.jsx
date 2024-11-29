@@ -6,6 +6,8 @@ import { styles } from '../styles';
 import { skills } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+import PropTypes from 'prop-types';
+
 
 const SkillCard = ({ skill }) => (
   <VerticalTimelineElement
@@ -14,7 +16,10 @@ const SkillCard = ({ skill }) => (
     iconStyle={{ background: skill.iconBg }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
-        <img src={skill.icon} alt={skill.title} className="w-[60%] h-[60%] object-contain" />
+        <img src={skill.icon} 
+        alt={skill.title} 
+        className="w-[60%] h-[60%] object-contain"
+         />
       </div>
     }
   >
@@ -22,7 +27,7 @@ const SkillCard = ({ skill }) => (
       <h3 className="text-white text-[24px] font-bold">{skill.title}</h3>
     </div>
     <ul className='mt-5 list-none flex flex-col gap-2'>
-      {skill.points.map((point, index) => (
+      {skill.points && skill.points.map((point, index) => (
         <li key={`skill-point-${index}`} className="flex items-center">
           <img src={point} alt={`icon-${index}`} className="w-8 h-8 object-contain mr-3" />
           <span className="text-white-100 text-[16px] pl-1">
@@ -33,6 +38,15 @@ const SkillCard = ({ skill }) => (
     </ul>
   </VerticalTimelineElement>
 );
+
+SkillCard.propTypes = {
+  skill: PropTypes.shape({
+    iconBg: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    points: PropTypes.arrayOf(PropTypes.string),
+  }).isRequired,
+};
 
 const Skill = () => {
   return (
