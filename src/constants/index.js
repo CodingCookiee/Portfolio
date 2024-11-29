@@ -1,9 +1,6 @@
 import {
-  jest,
-  npm, 
+  jest, 
   cloudflare,
-  bootstrap,
-  postgresql,
   webpack,
   vitejs,
   github,
@@ -20,7 +17,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -36,7 +32,16 @@ import {
   frontend,
   backendd,
   dev,
-  fiverrservices
+  fiverrservices,
+  pandaplay,
+  docker,
+  firebase,
+  restful ,
+  stripe,
+  uauth,
+  domain_integration,
+  aws,
+ 
 } from "../assets";
 
 export const navLinks = [
@@ -97,20 +102,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: 'Bootstrap',
-    icon: bootstrap,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "Node JS",
@@ -127,10 +120,6 @@ const technologies = [
   {
     name: "MySQL",
     icon: mysql,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
   },
   {
     name: "MeRN Stack",
@@ -153,7 +142,7 @@ const skills = [
     icon: frontend,
     iconBg: "#f1f1f1",
     points: [
-      reactjs, redux, tailwind, threejs, bootstrap
+      reactjs, tailwind, threejs, 
     ],
   },
   {
@@ -161,7 +150,7 @@ const skills = [
     icon: backendd,
     iconBg: "#383E56",
     points: [
-      nodejs,expressjs, mongodb, sql, postgresql
+      nodejs, expressjs, mongodb, sql, firebase
     ],
   },
   {
@@ -169,11 +158,36 @@ const skills = [
     icon: dev,
     iconBg: "#f1f1f1",
     points: [
-      vscode,  github, git, netlify,cloudflare, vitejs, webpack,npm,jest, figma, 
+      vscode, github, git, vitejs, webpack, restful, jest, 
+      stripe, docker,  uauth, domain_integration, aws, figma,
     ],
   },
-];
-const projects = [
+];const projects = [
+  {
+    name: "PandaPlay",
+    description:
+      "PandaPlay is a Movie management web app; developed using MERN Stack & TMBD API.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "TMBD API",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Jwt",
+        color: "green-text-gradient",
+      }
+    ],
+    image: pandaplay,
+    source_code_link: "https://github.com/CodingCookiee/moviesapp",
+  },
    {
     name: "PANDA AI",
     description:

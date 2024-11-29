@@ -17,7 +17,8 @@ import cloudflare from './tech/cloudflare.svg'
 import redux from './tech/redux.svg'
 import vitejs from './tech/vitejs.svg'
 import netlify from './tech/netlify.svg'
-import expressjs from './tech/expressjs.png'
+import express from './tech/express.svg'
+import expressjs from './tech/expressjs.svg'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -44,6 +45,14 @@ import noteapp from "./noteapp.png";
 import memegenerator from "./memegenerator.png";
 import airbnb from "./airbnb.png";
 import fiverrservices from "./fiverrservices.png";
+import pandaplay from "./pandaplay.png";
+import firebase from "./tech/firebase.svg";
+import restful from "./tech/restful.png";
+import stripe from "./tech/stripe.svg";
+import uauth from "./tech/uauth.svg";
+import domain_integration from './tech/domain_integration.svg'
+import aws from './tech/aws.svg'
+
 
 export {
   jest,
@@ -89,5 +98,13 @@ export {
   frontend,
   backendd,
   dev,
-  fiverrservices
+  fiverrservices,
+  pandaplay,
+  firebase,
+  restful,
+  stripe,
+  uauth,
+  domain_integration,
+  aws,
+  express,
 };

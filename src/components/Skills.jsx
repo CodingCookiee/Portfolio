@@ -21,13 +21,16 @@ const SkillCard = ({ skill }) => (
     <div>
       <h3 className="text-white text-[24px] font-bold">{skill.title}</h3>
     </div>
-    <div className='mt-5 flex flex-row flex-wrap gap-4 '>
+    <ul className='mt-5 list-none flex flex-col gap-2'>
       {skill.points.map((point, index) => (
-        <div key={`skill-point-${index}`} className="flex items-center">
-          <img src={point} alt={`icon-${index}`} className="w-20 h-20 object-cover mr-3" />
-        </div>
+        <li key={`skill-point-${index}`} className="flex items-center">
+          <img src={point} alt={`icon-${index}`} className="w-8 h-8 object-contain mr-3" />
+          <span className="text-white-100 text-[16px] pl-1">
+            {point.split('/').pop().split('.')[0].toUpperCase()}
+          </span>
+        </li>
       ))}
-    </div>
+    </ul>
   </VerticalTimelineElement>
 );
 
