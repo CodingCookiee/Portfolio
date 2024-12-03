@@ -52,6 +52,7 @@ import stripe from "./tech/stripe.svg";
 import uauth from "./tech/uauth.svg";
 import domain_integration from './tech/domain_integration.svg'
 import aws from './tech/aws.svg'
+import zentrycentral from './zentrycentral.png'
 
 
 export {
@@ -107,4 +108,5 @@ export {
   domain_integration,
   aws,
   express,
+  zentrycentral,
 };

@@ -39,7 +39,7 @@ import {
   uauth,
   domain_integration,
   aws,
- 
+  zentrycentral
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +230,28 @@ const projects = [
     source_code_link: "https://github.com/CodingCookiee/PANDA-AI",
   },
   {
+    name: "ZentryCentral",
+    description:
+      "Single Page Static website following the model of zentry, developed using Reactjs & GSAP",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "GSAP",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      },
+    
+    ],
+    image: zentrycentral,
+    source_code_link: "https://github.com/CodingCookiee/ZentryCentral",
+  },
+  {
     name: "Fiverr Clone",
     description:
       "Fully Functional & Responsive Fiverr Clone developed using MERN Stack",
@@ -254,7 +276,7 @@ const projects = [
     image: fiverrservices,
     source_code_link: "https://github.com/CodingCookiee/FiverrClone",
   },
-
+  
   {
     name: "NoteApp",
     description:
